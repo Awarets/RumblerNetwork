@@ -9,9 +9,9 @@ Edit the contents of the 'RelevantAssemblies.rumbler' file and replace 'NameOfYo
 Add an Autoload (Project Settings -> Globals -> Autoload) for res://Scripts/AutoLoadStartup.cs
 
 ## Exporting
-When exporting your project, place '0Harmony.dll' and 'nanosockets.dll' into the root of your exported project folder.
+When exporting your project, place 'Release/0Harmony.dll' and 'Release/nanosockets.dll' into the root of your exported project folder.
 
-Place the contents of the 'Data' folder into the 'data_X_windows_x86_64' folder in your exported project folder. Note: **You must do this every time you export your project** (This is only necessary because Godot automatically replaces the assemblies within data_X_windows_Y folder every time you export)
+Place the contents of the 'Release/Data/' folder into the 'data_X_windows_x86_64' folder in your exported project folder. Note: **You must do this every time you export your project** (This is only necessary because Godot automatically replaces the assemblies within data_X_windows_x86_64 folder every time you export)
 
 Copy 'RelevantAssemblies.rumbler' and 'MasterServerInfo.rumbler' from your project folder into the root of your exported project folder.
 
